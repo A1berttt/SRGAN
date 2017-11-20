@@ -1,0 +1,19 @@
+================================================
+{
+    "TRAIN": {
+        "batch_size": 16,
+        "lr_init": 0.0001,
+        "beta1": 0.9,
+        "n_epoch_init": 100,
+        "n_epoch": 2000,
+        "lr_decay": 0.1,
+        "decay_every": 1000,
+        "hr_img_path": "~/datasets/DIV2K_train_HR/",
+        "lr_img_path": "~/datasets/DIV2K_train_LR_bicubic/X4/"
+    },
+    "VALID": {
+        "hr_img_path": "~/datasets/DIV2K_valid_HR/",
+        "lr_img_path": "~/datasets/DIV2K_valid_LR_bicubic/X4/"
+    }
+}
+================================================
